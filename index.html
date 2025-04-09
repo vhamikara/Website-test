@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Auto Deploy</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>GitHub Auto Deploy Tool</h1>
+
+    <label>◈ GitHub Repo Link:</label>
+    <input type="text" id="repoLink" placeholder="https://github.com/user/repo" />
+
+    <label>◈ GitHub Token:</label>
+    <input type="password" id="githubToken" placeholder="ghp_xxxxxx..." />
+
+    <button id="deployBtn">Deploy</button>
+
+    <h3>Log</h3>
+    <div class="log" id="logBox"></div>
+  </div>
+</body>
+</html>
